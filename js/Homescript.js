@@ -38,22 +38,22 @@ console.log(comparison + " is closer to 10!")
 //point1
 let x1 = 0
 let y1 = 0
-let z1 = 234234234
+let z1 = 0
 //point2
 let x2 = 543534534 
 let y2 = 0
-let z2 = 23523523523
+let z2 = 0
 //point3
 let x3 = 0
 let y3 = 34552352352
-let z3 = 6456456456
+let z3 = 0
 
 //longA (between 1-3 triangle points)
-let longA = (((x3-x1)**2)+((y3-y1)**2))**0.5
+let longA = (((x3-x1)**2)+((y3-y1)**2)+((z3-z1)**2))**0.5
 //longB (between 1-2 triangle  points)
-let longB = (((x2-x1)**2)+((y2-y1)**2))**0.5
+let longB = (((x2-x1)**2)+((y2-y1)**2)+((z2-z1)**2))**0.5
 //longC (between 2-3 triangle  points)
-let longC = (((x3-x2)**2)+((y3-y2)**2))**0.5
+let longC = (((x3-x2)**2)+((y3-y2)**2)+((z3-z2)**2))**0.5
 
 //find the biggest side
 let res1 = (longA > longB) ? longA : longB
