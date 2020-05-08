@@ -44,8 +44,8 @@ var counter = 0;
     } else if (num.length < 3)
 }*/
 
-for (let i=0; i<=99; i++) {
-    for (let j=1; j<=99; j++) {
+for (let i=0; i<=999; i++) {
+    for (let j=1; j<=999; j++) {
         let strI = i.toString();
             let arrI = strI.split('');
                 var resultI = arrI.reduce((a, b) => (parseFloat(a) + parseFloat(b)));       
