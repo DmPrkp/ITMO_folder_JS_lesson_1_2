@@ -38,12 +38,6 @@ console.log (answerArr, arrCopy, arrTask3)
 //task4
 var counter = 0;
 
-/*let numberCnv = (num) => {
-    if (num.length < 2) {
-        num += "0";
-    } else if (num.length < 3)
-}*/
-
 for (let i=0; i<=999; i++) {
     for (let j=1; j<=999; j++) {
         let strI = i.toString();
@@ -55,7 +49,7 @@ for (let i=0; i<=999; i++) {
         if (resultI == resultJ) {
             counter++;
             //console.log(`Совпадение ${counter}:(${resultI} ${resultJ})`);            
-        }
+        }        
     }        
 }
 
