@@ -13,9 +13,58 @@ var area = [ null, null, 1, null, null, 0, null, 1, null ]
 let table = `
     <table>
         <tbody>
-            <tr><td> ${area[0]} </td><td>${area[1]}</td> <td>${area[2]}</tr>
-            <tr><td> ${area[3]} </td><td>${area[4]}</td> <td>${area[5]}</tr>
-            <tr><td> ${area[6]} </td><td>${area[7]}</td> <td>${area[8]}</tr>
+            <tr>
+                <td> 
+                    ${(area[0] === null) ? " " : (
+                        (area[0] === 1) ? "X" : "O"
+                    )} 
+                </td>
+                <td>
+                    ${(area[1] === null) ? " " : (
+                        (area[1] === 1) ? "X" : "O"
+                    )} 
+                </td>
+                <td>
+                    ${(area[2] === null) ? " " : (
+                        (area[2] === 1) ? "X" : "O"
+                    )} 
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    ${(area[3] === null) ? " " : (
+                        (area[3] === 1) ? "X" : "O"
+                    )} 
+                </td>
+                <td>
+                    ${(area[4] === null) ? " " : (
+                        (area[4] === 1) ? "X" : "O"
+                    )} 
+                </td>
+                <td>
+                    ${(area[5] === null) ? " " : (
+                        (area[5] === 1) ? "X" : "O"
+                    )} 
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    ${(area[6] === null) ? " " : (
+                        (area[6] === 1) ? "X" : "O"
+                    )} 
+                </td>
+                <td>
+                    ${(area[7] === null) ? " " : (
+                        (area[7] === 1) ? "X" : "O"
+                    )} 
+                </td>
+                <td>
+                    ${(area[8] === null) ? " " : (
+                        (area[8] === 1) ? "X" : "O"
+                    )} 
+                </td>
+            </tr>
+            
         </tbody>
     </table>
 `
