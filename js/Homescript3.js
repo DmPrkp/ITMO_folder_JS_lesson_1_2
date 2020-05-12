@@ -135,7 +135,7 @@ do {
         
     }
 
-} while (weightSort.length > 1)
+} while (weightSort.length > 1);
 
 console.log(weightSort)
 
