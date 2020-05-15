@@ -110,8 +110,8 @@ console.log(`${counter} - совпадений`);
 
 //task5 (additional)
 
-//let weights = [2, 71, 4, 7, 42, 40, 8, 25, 5, 4, 47, 8, 3]
-let weights = [2,7,4,1,8,1]
+let weights = [2, 71, 4, 7, 42, 40, 8, 25, 5, 4, 47, 8, 3]
+//let weights = [2,7,4,1,8,1]
 
 let weightSort = weights.sort(function (a, b) {
     return a - b;
