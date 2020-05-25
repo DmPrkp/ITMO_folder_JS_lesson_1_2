@@ -15,9 +15,9 @@ function ArrComparison(Array1, Array2) {
                 break;
             }
         }
-    }
-    if (arr1.length == cnt) {
-        return true;
+        if (arr1.length == cnt) {
+            return true;
+        } else { return false; }
     } else { return false; }
 }
 
@@ -79,7 +79,7 @@ function wordGen() {
 // Определяем размер слова
     let wordLengthComp = Math.floor(Math.random() * 3) + 3;
 // Декларируем строки(массивы) букв (без й,ж,щ).
-    let arrVowel = "уеыаоэяию";
+    let arrVowel = "уеаоэяию";
     let arrConsonant = "цкнгшзхфвпрлдчсмтб";
 //Пустой массив для ответа
     var arrAnswer = [];
@@ -90,7 +90,7 @@ function wordGen() {
         //'крутим' до нужного размера, прекидывая с гласной на согласную
         for (i = 1; i <= wordLengthComp; i++) {
             if (i % 2 == 1) {
-                let randVow = Math.floor(Math.random() * 9);
+                let randVow = Math.floor(Math.random() * 8);
                 let Vowel = arrVowel[randVow];
                 arrAnswer.push(Vowel);
             } else {
@@ -109,7 +109,7 @@ function wordGen() {
                 let Consonant = arrConsonant[rendCons];
                 arrAnswer.push(Consonant);
             } else {
-                let randVow = Math.floor(Math.random() * 9);
+                let randVow = Math.floor(Math.random() * 8);
                 let Vowel = arrVowel[randVow];
                 arrAnswer.push(Vowel);
             };
