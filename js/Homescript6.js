@@ -66,7 +66,7 @@ function square(x, n) {
 
 
 
-//task4
+//task5
 
 let arr = [
     { 'price': 10, 'count': 2 },
@@ -79,5 +79,4 @@ let arr = [
 arr.sort(function (a, b) {
     return a.price-b.price;
 });
-
 console.log(arr)
