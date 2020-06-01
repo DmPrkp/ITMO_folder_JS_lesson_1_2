@@ -61,7 +61,7 @@ student.studentCrasher();
 //task4
 
 function fuckFunc(n) {
-    return (n === 1) ? n : (n * square(n - 1));
+    return (n === 1) ? n : (n * fuckFunc(n - 1));
 }
 
 //task5
