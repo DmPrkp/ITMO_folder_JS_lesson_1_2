@@ -48,7 +48,7 @@ let student = {
         "рассада",
         "обучение в университе"
     ],
-    institution: 'Оксфордский крестьянский университет',
+    institution: 'Оксфордский рабоче-крестьянский университет',
     studentCrasher() {
         let { name, surname, age, interests, institution } = this;
         console.log("Имя: " + name, surname + ". Возраст: " + age + ". Инетерсы: " + interests + ". Oбразование: " + institution)
@@ -60,11 +60,9 @@ student.studentCrasher();
 
 //task4
 
-function square(x, n) {
-    return (n === 1) ? x : (x * square(x, n - 1));
+function fuckFunc(n) {
+    return (n === 1) ? n : (n * square(n - 1));
 }
-
-
 
 //task5
 

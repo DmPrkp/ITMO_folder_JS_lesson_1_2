@@ -1,0 +1,72 @@
+
+.row {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 2rem;
+	max-width: 900px;
+}
+
+#colorTask1 {
+	margin: 2rem;	
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-content: center;	
+	background-color: firebrick;	
+	border-bottom-right-radius: 50px 35px;
+	border-top-left-radius: 50px 35px;	
+}
+
+#colorBtn {
+	margin: 1rem;	
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-content: center;		
+	background-color: forestgreen;
+	border: none;	
+	border-bottom-left-radius: 50px 35px;
+	border-top-right-radius: 50px 35px;	
+}
+
+#cntTask2 {
+	color: floralwhite;
+	align-self: center;	
+}
+
+#sendSpan {
+	color: floralwhite;
+	align-self: center;	
+}
+
+.shadow {	
+	box-shadow: 2px 2px 10px black, 5px 5px 5px lightcoral;
+}
+
+.upload-area {
+	width: 90%;
+	max-width: 1200px;
+	height: auto;
+	max-height: 1000px;	
+	margin: auto;
+	margin-top: 5rem;
+	padding: 1rem;
+	box-shadow: 0px 0px 15px 3px lightslategray;
+	overflow: auto;
+}
+
+#text-upl div p {
+	margin: 3px;
+	font-size: 14px;
+}
+
+#text-upl div h3 {
+	margin: 3px;
+	margin-top: 0px;
+}
+
