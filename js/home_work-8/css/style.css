@@ -70,3 +70,60 @@
 	margin-top: 0px;
 }
 
+.btn {	
+	margin: 1rem;	
+	width: 20%;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-content: center;	
+	background-color: rgb(47, 113, 144);
+	border: none;
+	box-shadow: 0px 0px 15px 5px aliceblue;
+	color: floralwhite;	
+}
+
+.activeBtn {
+	box-shadow: none;	
+}
+
+.btn-group {
+	display: flex;
+	background-color: darkslategray;
+	justify-content: center;
+}
+
+.content_display {
+	width: 90%;
+	max-width: 1200px;
+	height: auto;	
+	margin: auto;
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+.card {
+	display: none;
+	border: 1px solid;
+	padding: 10px;	
+}
+
+.floatL {
+	float: left;
+	max-height: 200px;
+}
+
+.floatR {
+	max-width: 400px;
+	float: right;
+}
+
+/*
+.none {
+	display: none;
+}*/
+
+.activeArea {
+	display: block !important;
+}
