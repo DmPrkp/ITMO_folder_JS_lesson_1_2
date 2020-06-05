@@ -21,14 +21,14 @@ function ArrComparison(Array1, Array2) {
     } else { return false; }
 }
 
-console.log(ArrComparison(arr1, arr2));
-console.log(ArrComparison(arr2, arr3));
+console.log(arrComparison(arr1, arr2));
+console.log(arrComparison(arr2, arr3));
 
 
 
 //task 2
 
-function ArrConstructor(firstValue, lastValue, step = 1) {
+function arrConstructor(firstValue, lastValue, step = 1) {
     let summ = step + firstValue;
     var arrTask2 = [firstValue];
     for (summ; summ < lastValue; summ += step) {
@@ -38,7 +38,7 @@ function ArrConstructor(firstValue, lastValue, step = 1) {
     return arrTask2;
 }
 
-console.log(ArrConstructor(1, 12, 3));
+console.log(arrConstructor(1, 12, 3));
 
 
 
